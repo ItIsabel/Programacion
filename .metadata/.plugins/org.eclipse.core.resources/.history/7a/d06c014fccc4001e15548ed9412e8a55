@@ -1,0 +1,18 @@
+package granAlmacen;
+import segunda_Evaluacion_POO.Fecha;
+
+
+public class MainGranAlmacen {
+
+	public static void main(String[] args) {
+		Venta venta1=new Venta();
+		venta1.addProducto(new ProductoAlimentacion("pizza",3.5,76543, new Fecha(10,12,2024)));
+		venta1.addProducto(new ProductoRopa("pijama",30,6543,"lana"));
+		venta1.addProducto(new ProductoElectronico("mp3",80,7654).addGarantia()));
+	
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

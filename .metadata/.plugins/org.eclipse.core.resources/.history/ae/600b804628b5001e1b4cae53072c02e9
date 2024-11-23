@@ -1,0 +1,76 @@
+package ej.Libro;
+import java.util.Arrays;
+import java.util.Scanner;
+
+import segunda_Evaluacion_POO.Fecha;
+import segunda_Evaluacion_POO.Persona;
+
+public class main {
+
+	public static void main(String[] args) {
+		Libro[] lib=new Libro[2];
+		System.out.println("Esta es la libreria");
+		System.out.println("Introduce lo que te gustaría hacer ");
+		System.out.println("1 ..............Introducir libro");
+		System.out.println("2................Eliminar libro");
+		System.out.println("3...Listar todos los libros de la libreria");
+		Scanner teclado=new Scanner(System.in);
+		char r=teclado.next().charAt(0);
+		switch(r) {
+		case 1:
+			System.out.println();
+			lib.
+		}
+
+		Libro[] libreria=new Libro [3];
+		System.out.println(crearLibro(libreria));
+		System.out.println("imprimir libreria"+Arrays.toString(libreria));
+		System.out.println("El numero total de libros creados es: " + Libro.getLibros());;
+		Libro[] libreria1=new Libro[1];
+		System.out.println(crearLibro(libreria1));
+		System.out.println("imprimir libreria"+Arrays.toString(libreria1));
+		System.out.println("El numero total de libros creados es: " + Libro.getLibros());;	
+		
+	}
+	public static String crearLibro(Libro lib){
+				Scanner sc= new Scanner(System.in);
+				System.out.println("Por favor introduce el titulo del libro " + (i+1));
+				String n=(sc.nextLine());
+				System.out.println("introduce la edicion");
+				String ed= (sc.nextLine());
+				
+				//guardamos el nombre y el apellido del autor en una variable y los usamos en el constructor de la persona
+				System.out.println("introduce el nombre del autor");
+				String nombreAutor=sc.nextLine();
+				System.out.println("introduce el apellido del autor");
+				String apellidoAutor=sc.nextLine();
+				Persona autor=new Persona(nombreAutor,apellidoAutor);
+				System.out.println("introduce el ISBN");
+				String isbn= sc.nextLine();
+				System.out.println("pls introduce la ciudad y el país");
+				String lugar=sc.nextLine();
+				
+				// conseguimos las variables de la fecha para utilizarlo dentro de la clase libro.
+				System.out.println("pls introduce primero el dia de creacion en formato dd");
+				int d=sc.nextInt();
+				System.out.println("pls introduce primero el mes de creacion en formato mm");
+				int m= sc.nextInt();
+				System.out.println("pls introduce primero el año de creacion en formato aaaa");
+				int a=sc.nextInt();
+				Fecha fecha=new Fecha(d,m,a);
+				System.out.println("introduce el numero de páginas");
+				int pags=sc.nextInt();
+				lib= (new Libro(n,ed,autor,isbn,lugar,fecha,pags));
+		return "ya esta. Libro creado "
+		
+
+	
+		
+		
+
+		
+		
+	}
+
+
+}

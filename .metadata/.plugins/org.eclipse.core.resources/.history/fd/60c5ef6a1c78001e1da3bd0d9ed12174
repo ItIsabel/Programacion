@@ -1,0 +1,15 @@
+package programacion_java;
+import java.util.Random;
+
+public class Ej_ahorcado {
+
+	public static void main(String[] args) {
+		int intentos=10;
+		String [] palabrasPosibles= {"elefante","toro","perro"};
+		Random random=new Random();
+		int n= random(palabrasPosibles.length);
+		
+		
+	}
+
+}

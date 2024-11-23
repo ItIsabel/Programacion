@@ -1,0 +1,21 @@
+package Libro;
+
+import segunda_Evaluacion_POO.Fecha;
+import segunda_Evaluacion_POO.Persona;
+
+public class Libro {
+	String titulo;
+	String ed;
+	Persona autor;
+	String isbn;
+	String lugar;
+	Fecha fecha;
+	int paginas;
+	
+	
+	
+	
+	
+	
+
+}

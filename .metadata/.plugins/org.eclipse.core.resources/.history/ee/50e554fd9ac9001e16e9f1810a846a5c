@@ -1,0 +1,76 @@
+package equipo;
+import java.util.ArrayList;
+
+public class Equipo {
+	ArrayList<Ciclista> grupo;
+	String nombre;
+	int sumaTiempos;
+	String pais;
+	
+	public Equipo( String nombre, String pais) {
+		grupo=new ArrayList<Ciclista>();
+		this.nombre = nombre;
+		this.pais = pais;
+	}
+	public void addCiclista( Ciclista ciclista) {
+		grupo.add(ciclista);
+		this.sumaTiempos+=ciclista.getTiempoAcumulado();
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public int getSumaTiempos() {
+		return sumaTiempos;
+	}
+	public int SumaTiempos() {
+		int r=0;
+		for (Ciclista ciclista : grupo) {
+			r+=ciclista.getTiempoAcumulado();
+		}
+		this.sumaTiempos=r;
+		return r;
+	}
+	public String getPais() {
+		return pais;
+	}
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
+	
+	public String imprimeCiclista(int id) throws Exception{
+		if (verificaCiclista(id)) {
+			return grupo.get(id).toString();
+		}
+		else {
+			throw new Exception("El ciclista no existe");
+		}
+	}
+	
+	private boolean verificaCiclista(int i) {
+		boolean r=false;
+		for (Ciclista ciclista : grupo) {
+			if (ciclista.getId()==i) {
+				r=true;
+			}
+		}
+		return r;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Equipo [nombre Equipo=" + nombre + ", sumaTiempos=" + SumaTiempos() + ", pais=" + pais
+				+ "\n"+ "grupo=" +"\n"+ grupo +"\n";
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

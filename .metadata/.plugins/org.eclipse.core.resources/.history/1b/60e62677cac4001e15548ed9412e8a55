@@ -1,0 +1,40 @@
+package granAlmacen;
+import java.util.ArrayList;
+
+public class Venta {
+	static int totalventas;
+	int codigoVenta;
+	ArrayList<Producto> listaProductos;
+	
+	
+	public Venta() {
+		listaProductos= new ArrayList<Producto>();
+		codigoVenta=totalventas;
+		totalventas++;
+	}
+	
+	public String addProducto(Producto prod) {
+		listaProductos.add(prod);
+		return "success";
+	}
+
+	public static int getTotalventas() {
+		return totalventas;
+	}
+
+	public static void setTotalventas(int totalventas) {
+		Venta.totalventas = totalventas;
+	}
+
+	public int getCodigoVenta() {
+		return codigoVenta;
+	}
+	public int gjdjs(String nombre) {
+		for (int i = 0; i < listaProductos.size(); i++) {
+			if listaProductos.
+		}
+		
+	}
+	
+
+}

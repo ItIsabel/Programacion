@@ -1,0 +1,75 @@
+package ej.Libro;
+
+import segunda_Evaluacion_POO.Fecha;
+import segunda_Evaluacion_POO.Persona;
+
+public class Libro {
+	static int numtotallibros=1;
+	int numlibro;
+	String titulo;
+	String ed;
+	Persona autor;
+	String isbn;
+	String lugar;
+	Fecha fecha;
+	int paginas;
+	
+	public Libro() {};
+	
+	public Libro(String nombre) {
+		this.titulo=nombre;
+	}
+	public Libro(String nombre,	String ed, Persona autor, String isbn,String lugar,Fecha fecha, int paginas) {
+		this.titulo=nombre;
+		this.ed=ed;
+		this.autor=autor;
+		this.isbn=isbn;
+		this.lugar=lugar;
+		this.fecha=fecha;
+		this.paginas=paginas;
+		this.numlibro=this.numtotallibros;
+		this.numtotallibros++;
+	}
+	
+	public void setTitulo(String nombre) {
+		this.titulo=nombre;
+	}
+	public void setEd(String nombre) {
+		this.ed=nombre;
+	}
+	public void setPersona(Persona nombre) {
+		this.autor=nombre;
+	}
+	public void setlugar(String ciudad, String pais) {
+		this.lugar=ciudad + ","+"pais";
+	}
+	public void setFecha(Fecha nombre) {
+		this.fecha=nombre;
+	}
+	public void setPaginas(int nombre) {
+		this.paginas=nombre;
+	}
+	public static int getLibros() {
+		return numtotallibros;
+	}
+	public String toString() {
+		String r= "libro numero "+this.numlibro+"\n";
+		r+="Titulo: "+ this.titulo +"\n";
+		r+="Edicion: "+ this.ed +"\n";
+		r+="Autor: "+ this.autor + "\n";
+		r+="ISBN: "+ this.isbn +"\n";
+		r+="Lugar: "+ this.lugar +"\n";
+		r+="Fecha: "+ this.fecha +"\n";
+		r+="Paginas: "+ this.paginas +"\n";
+		return r;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

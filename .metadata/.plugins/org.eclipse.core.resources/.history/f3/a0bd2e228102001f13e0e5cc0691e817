@@ -1,0 +1,18 @@
+package ProyectoFinal;
+
+public class Arbol extends Vegetal{
+	TipoArbol ta;
+
+	public Arbol(TipoArbol ta) {
+		super();
+		this.ta = ta;
+	}
+
+	@Override
+	public void regar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

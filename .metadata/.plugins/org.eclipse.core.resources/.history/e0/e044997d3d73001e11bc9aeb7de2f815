@@ -1,0 +1,33 @@
+package Ejercicios_java;
+import java.util.Scanner;
+public class Ej1_Ahorcado {
+	public static void main(String[] args) {
+		char[] palabraOculta= {'e','l','f','a','n','t','e'};
+		char[] descubrePalabra=new char[palabraOculta.length];
+		int intentos=10;
+		while ((palabraOculta!= descubrePalabra) || intentos>0){
+			System.out.println("Pls introduce letras para averiguar palabra");
+			Scanner teclado=new Scanner(System.in);
+			char letra= teclado.next().charAt(0);
+			for (int i=0; i<=palabraOculta.length; i++) {
+				if (palabraOculta[i]==letra) {
+					descubrePalabra[i]=letra;
+					System.out.println("Felicidades has acertado la letra..."+ letra);
+					for (int i=0; i<=palabraOculta.length; i++) {
+						System.out.print(descubrePalabra[i]);
+					}
+					System.out.println("Ahora introduce otra letra");
+					letra= teclado.next().charAt(0);
+				}else {
+					intentos--;
+					System.out.println("intentalo de nuevo");
+					letra= teclado.next().charAt(0);
+					}
+			}
+		}
+		System.out.println("Lo lamento, has perdido. La palabra correcta era...");
+		for (int i=0; i<=palabraOculta.length; i++) {
+			System.out.print(palabraOculta[i]);
+		}
+		}
+}

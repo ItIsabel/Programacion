@@ -1,0 +1,27 @@
+package segunda_Evaluacion_POO;
+
+public class Pajaro {
+	private int idPajaro=0;
+	private String color="";
+	private String nombre="";
+	private static int total=0;
+	
+	public Pajaro(String nombre,String color) {
+		this.color=color;
+		this.nombre=nombre;
+		this.idPajaro=this.total;
+		this.total ++;
+	}
+	public static int numeroTotalPajaros() {
+		return total;
+	}
+	
+	public String toString() {
+		String r="el nombre del pajaro es: "+ this.nombre;
+		r+="el color del pajaro es: "+ this.color;
+		r+="el id del pájaro es: "+ this.idPajaro;
+		return r;
+	}
+	
+
+}

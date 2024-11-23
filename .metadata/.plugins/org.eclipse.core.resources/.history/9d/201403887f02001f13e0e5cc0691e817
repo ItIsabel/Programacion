@@ -1,0 +1,18 @@
+package ProyectoFinal;
+
+public class Albahaca extends Planta implements Comestible{
+	
+	public Albahaca() {
+	}
+
+	@Override
+	public void regar() {
+		crecer();
+	}
+
+	private void crecer() {
+		super.edad+=1;
+	}
+
+
+}

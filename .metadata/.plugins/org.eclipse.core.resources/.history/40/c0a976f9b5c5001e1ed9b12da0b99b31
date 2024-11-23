@@ -1,0 +1,19 @@
+package vehiculos;
+
+public class Moto extends Vehiculo {
+	/*
+	 * Constructor de moto
+	 */
+	public Moto(String marca, int matricula, int id, int estadoDeposito,int capacidadDeposito,int km){
+	 super(marca, matricula, id, estadoDeposito, capacidadDeposito, km);
+	}
+	
+	/*
+	 * Cuando Moto acelera, baja la cantidad de combustible que tiene
+	 */
+	
+	public void arrancar() {
+		super.setEstadoDeposito(super.getEstadoDeposito()-1);
+	}
+
+}

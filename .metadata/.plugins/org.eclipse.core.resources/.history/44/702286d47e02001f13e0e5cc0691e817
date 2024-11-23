@@ -1,0 +1,15 @@
+package ProyectoFinal;
+
+public class Hortensia extends Planta{
+	public Hortensia() {
+	}
+
+	@Override
+	public void regar() {
+		crecer();
+	}
+
+	private void crecer() {
+	}
+
+}

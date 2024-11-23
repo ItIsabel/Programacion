@@ -1,0 +1,6 @@
+package ProyectoFinal;
+
+public interface Comestible {
+	public void recolectar();
+
+}

@@ -1,0 +1,38 @@
+package vehiculos;
+
+public class Vehiculo {
+	String marca;
+	int matricula;
+	int id;
+	int estadoDeposito;
+	int capacidadDeposito;
+	int km;
+	
+	public Vehiculo	(String marca, int matricula, int id, int estadoDeposito,int capacidadDeposito,int km)throws Exception {
+		this.marca=marca;
+		this.matricula=matricula;
+		this.id=id;
+		if (estadoDeposito<=capacidadDeposito) {
+			this.estadoDeposito=estadoDeposito;	
+			this.capacidadDeposito=estadoDeposito;
+		}
+		else
+			throw new Exception("el combustible que lleva no puede ser superior a su capacidad");
+	
+		this.km=km;
+		
+	}
+
+	public int getEstadoDeposito() {
+		return estadoDeposito;
+	}
+
+	public void setEstadoDeposito(int estadoDeposito) {
+		this.estadoDeposito = estadoDeposito;
+	}
+
+	public int getCapacidadDeposito() {
+		return capacidadDeposito;
+	}
+
+}

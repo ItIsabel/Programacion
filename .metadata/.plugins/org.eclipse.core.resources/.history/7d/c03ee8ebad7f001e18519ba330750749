@@ -1,0 +1,11 @@
+package programacion_java;
+
+public class gkfjf {
+ public static void Main (String[] args) {
+	 int a=7;
+	 
+ }
+ public static int lala(int a) {
+	 
+ }
+}

@@ -1,0 +1,43 @@
+package programacion_java;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Ej_ahorcado {
+
+	public static void main(String[] args) {
+		int intentos=10;
+		String [] palabrasPosibles= {"elefante","toro","perro","gato"};
+		Random random=new Random();
+		int n= random.nextInt(palabrasPosibles.length);
+		char[] palabraOculta=palabrasPosibles[n].toCharArray();
+		char[] descubrePalabra= new char[palabraOculta.length];
+		while ((palabraOculta!=descubrePalabra )&& (intentos>0)){
+			boolean hayLetra=false;
+			Scanner teclado=new Scanner(System.in);
+			char letra= teclado.next().charAt(0);
+			for (int i=0;i<descubrePalabra.length;i++) {
+				if (letra==palabraOculta[i]) {
+					descubrePalabra[i]=letra;
+					hayLetra=true;		
+				}
+			}
+			if (hayLetra) {
+				System.out.println("Felicidades, has encontrado la letra" + letra);
+				for (int i=0; i<descubrePalabra.length;i++) {
+					System.out.print(descubrePalabra[i]);
+				}
+			}else {
+				System.out.println("Lo siento,no has acertado la letra");
+				intentos--;
+			}
+		}
+		if (Arrays.equals(descubrePalabra,palabraOculta)){
+			System.out.println("Felicidades, has ganado");
+		}
+		if (intentos==0) {
+			System.out.println(" Lo siento, has fallado...La palabra oculta era..." + palabraOculta.toString());
+		}
+	}
+
+}

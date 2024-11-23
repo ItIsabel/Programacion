@@ -1,0 +1,26 @@
+package segunda_Evaluacion;
+
+public class EjRepaso_Strings {
+
+	public static void main(String[] args) {
+		String[] palabras= {"Loco","loco","muy"};
+		System.out.println(palabras[0]+ " compareTo " + palabras[1] +" = "+ palabras[0].compareTo(palabras[1]));
+		System.out.println(palabras[0] + " compareToIgnoreCase "+ palabras[1] +" = "+ palabras[0].compareToIgnoreCase(palabras[1]));
+		System.out.println(palabras[0]+ " contentEquals " + palabras[1] +" = "+palabras[0].contentEquals(palabras[1]));
+		System.out.println(palabras[0] + " equals " + palabras[1] +" = "+ palabras[0].equals(palabras[1]));
+		System.out.println(palabras[0] + " equalsIgnoreCase " + palabras[1] +" = "+ palabras[0].equalsIgnoreCase(palabras[1]));
+		System.out.println(palabras[2] + " concat " + palabras[1] +" = "+ palabras[2].concat(palabras[1]));
+		System.out.println(palabras[0] + " contains oc" + " = "+palabras[0].contains("oc"));
+		char[] array= {'h','o','l','a'};	
+		System.out.println(palabras[0].copyValueOf(array) +"-> array to string thru copyValueOf");
+		System.out.println(palabras[0] +" endsWith (o) " + palabras[0].endsWith("o"));
+		System.out.println("get bytes " +palabras[0].getBytes());
+		System.out.println("hashCode " +palabras[0].hashCode());
+		System.out.println("lenght var1 " +palabras[0].length());
+		System.out.println("chatAt2 var3 " +palabras[2].charAt(2));
+		System.out.println("substring 2 var3 " +palabras[2].substring(2));
+		System.out.println("index of 2 var3 " +palabras[2].indexOf(2));
+		System.out.println("toLowerCase de " + palabras[2].toUpperCase() +" "+ palabras[2].toLowerCase() );
+		}
+	}
+

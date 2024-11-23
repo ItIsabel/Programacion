@@ -1,0 +1,15 @@
+package banco;
+
+import segunda_Evaluacion_POO.Persona;
+
+public class CuentaCorriente extends Cuenta {
+	private String nCuenta="2";
+	private static int contador=0000;
+
+
+	public CuentaCorriente(Persona cliente) {
+		super(cliente);
+		nCuenta+=Integer.toString(contador);
+		contador++;
+	}
+}

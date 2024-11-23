@@ -1,0 +1,14 @@
+package programacion_java;
+import java.util.Scanner;
+
+public class Ej9_asteriscos {
+	public static void main(String[] args) {
+		int a=1;
+		Scanner teclado=new Scanner (System.in);
+		int contador= teclado.nextInt();
+		while (a<contador-1)
+			System.out.println("*");
+			contador=(contador-1);
+	}
+
+}

@@ -1,0 +1,12 @@
+package ProyectoFinal;
+
+public class Arbol {
+	TipoArbol ta;
+
+	public Arbol(TipoArbol ta) {
+		super();
+		this.ta = ta;
+	}
+
+
+}

@@ -1,0 +1,66 @@
+package segunda_Evaluacion_POO;
+
+public class Test{
+
+	public static void main(String[] args) {
+		//Clase coche
+		System.out.println("ejs. Clase coche");
+		Coche Pegaso=new Coche("azul","citroen",5); 
+		Pegaso.acelerar(6);
+		Pegaso.acelerar(100);
+		System.out.println(Pegaso.getVelocidad());
+		Pegaso.apagar();
+		System.out.println(Pegaso.getVelocidad());
+		System.out.println(Pegaso.toString());
+		Coche c4=new Coche("rosa","bmw",4);
+		c4.acelerar(120);
+		System.out.println(c4.getVelocidad());
+		c4.cambiarColor("verde");
+		System.out.println(c4.toString());		
+		
+		//clase Rectangulo
+		System.out.println("Ejs clase rectangulo");
+		Rectangulo r1=new Rectangulo(8,3);
+		System.out.println("el area del rectangulo es "+ r1.calculaArea() + " y su base es " +  r1.calculaPerimetro());
+		System.out.println(r1.toString());
+		
+		//Clase Fecha
+		System.out.println("");
+		System.out.println("ejs clase Fecha");
+		Fecha hoy= new Fecha(13,12,2023);
+		hoy.modificarDia(30);
+		System.out.println(hoy.toString());
+		
+		//Clase tiempo
+		System.out.println("");
+		System.out.println("ejs clase Tiempo");
+		Tiempo ahora=new Tiempo(23,59,59);
+		ahora.setSegundo(60);
+		System.out.println(ahora.toString());
+		
+		//Clase Cancion
+		System.out.println("");
+		System.out.println("ejs clase Canción");
+		Cancion knockingOnHeavensDoor= new Cancion("knocking On Heaven's Door", "Guns N'Roses");
+		System.out.println(knockingOnHeavensDoor.dameAutor());
+		System.out.println(knockingOnHeavensDoor.dameTitulo());
+		Cancion unknown= new Cancion();
+		unknown.ponAutor("RadioHead");
+		unknown.ponTitulo("Creep");
+		System.out.println(unknown.toString());
+		
+		//Clase pájaro
+		Pajaro paloma= new Pajaro ("paloma","gris");
+		Pajaro cuervo= new Pajaro ("cuervo","negro");
+		Pajaro gaviota= new Pajaro ("gaviota", "blanco");
+		Pajaro cotorra= new Pajaro ("cotorra","verde");
+		System.out.println(paloma.toString());
+		System.out.println(cuervo.toString());
+		System.out.println(gaviota.toString());
+		System.out.println(cotorra.toString());
+		System.out.println(Pajaro.numeroTotalPajaros());
+		
+		
+	}
+
+}

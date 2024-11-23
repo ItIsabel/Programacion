@@ -1,0 +1,46 @@
+package equipo;
+
+public class Escalador extends Ciclista{
+	float acerelacionSubida;
+	float gradoRampa;
+	
+	public Escalador(String nombre, float acerelacionSubida, float gradoRampa) {
+		super(nombre);
+		this.acerelacionSubida = acerelacionSubida;
+		this.gradoRampa = gradoRampa;
+	}
+	public Escalador() {};
+	
+	public String imprimirTipo() {
+		return "Es un escalador";
+	}
+
+	public float getAcerelacionSubida() {
+		return acerelacionSubida;
+	}
+
+	public void setAcerelacionSubida(float acerelacionSubida) {
+		this.acerelacionSubida = acerelacionSubida;
+	}
+
+
+	public float getGradoRampa() {
+		return gradoRampa;
+	}
+
+	public void setGradoRampa(float gradoRampa) {
+		this.gradoRampa = gradoRampa;
+	}
+	
+
+	@Override
+	public String toString() {
+		return super.toString()+ "Escalador - acerelacionSubida=" + acerelacionSubida + ", gradoRampa=" + gradoRampa + "\n";
+	}
+	
+	
+
+	
+
+}
+	

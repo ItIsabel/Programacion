@@ -1,0 +1,11 @@
+package ProyectoFinal;
+
+public abstract class Vegetal {
+
+	public Vegetal() {
+	}
+	public abstract void regar();
+	public abstract void abonar();
+	private abstract void crecer();
+	
+}

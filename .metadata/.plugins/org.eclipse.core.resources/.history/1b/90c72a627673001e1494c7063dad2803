@@ -1,0 +1,48 @@
+package programacion_java;
+
+public class ej_Ahorcad {
+
+	import java.util.Scanner;
+
+	public class WordGuessingGame {
+	    public static void main(String[] args) {
+	        char[] hiddenWord = {'e', 'l', 'e', 'f', 'a', 'n', 't', 'e'};
+	        char[] guessedWord = new char[hiddenWord.length];
+	        int attemptsRemaining = 10;
+
+	        while ((hiddenWord != guessedWord) || attemptsRemaining > 0) {
+	            System.out.println("Please enter a letter to guess the word:");
+	            Scanner scanner = new Scanner(System.in);
+	            char letter = scanner.next().charAt(0);
+
+	            for (int i = 0; i < hiddenWord.length; i++) {
+	                if (letter == hiddenWord[i]) {
+	                    guessedWord[i] = letter;
+	                    System.out.println("Congratulations! You guessed a correct letter: " + letter);
+	                    for (int j = 0; j < guessedWord.length; j++) {
+	                        System.out.print(guessedWord[j] + " ");
+	                    }
+	                } else {
+	                    attemptsRemaining--;
+	                    System.out.println("Sorry, that letter is not in the word. Please try again.");
+	                }
+	            }
+
+	            System.out.println("Please enter another letter:");
+	            letter = scanner.next().charAt(0);
+	        }
+
+	        if (hiddenWord == guessedWord) {
+	            System.out.println("Congratulations! You won!");
+	        } else {
+	            System.out.println("Sorry, you lost. The correct word was: ");
+	            for (int i = 0; i <= hiddenWord.length; i++) {
+	                System.out.print(hiddenWord[i]);
+	            }
+	        }
+	    }
+	}
+
+	}
+
+}

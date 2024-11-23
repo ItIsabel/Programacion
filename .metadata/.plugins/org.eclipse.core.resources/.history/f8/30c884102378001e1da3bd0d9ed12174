@@ -1,0 +1,25 @@
+package programacion_java;
+
+public class Ej3_Strings {
+
+	public static void main(String[] args) {
+		String var1="Loco";
+		String var2="loco";
+		String var3="muy";
+		System.out.println(var1+ " compareTo " + var2 +" = "+ var1.compareTo(var2));
+		System.out.println(var1 + " compareToIgnoreCase "+ var2 +" = "+ var1.compareToIgnoreCase(var2));
+		System.out.println(var1+ " contentEquals " + var2 +" = "+var1.contentEquals(var2));
+		System.out.println(var1 + " equals " + var2 +" = "+ var1.equals(var2));
+		System.out.println(var1 + " equalsIgnoreCase " + var2 +" = "+ var1.equalsIgnoreCase(var2));
+		System.out.println(var3 + " concat " + var2 +" = "+ var3.concat(var2));
+		System.out.println(var1 + " contains oc" + " = "+var1.contains("oc"));
+		char[] array= {'h','o','l','a'};	
+		System.out.println(var1.copyValueOf(array) +"-> array to string thru copyValueOf");
+		System.out.println(var1 +" endsWith (o)" + var1.endsWith("s"));
+		System.out.println("get bytes " +var1.getBytes());
+		System.out.println("hashCode " +var1.hashCode());
+
+		
+	}
+
+}

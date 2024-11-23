@@ -1,0 +1,15 @@
+package granAlmacen;
+
+public class ProductoElectronico extends Producto{
+	int garantia;
+	
+	public ProductoElectronico(String nombre,int precio,int codigoBarras) {
+		super(nombre,precio,codigoBarras);
+	}
+	
+	public void addGarantia() {
+		this.garantia=3;
+		super.setPrecio(super.getPrecio()+8.5);;
+	}
+
+}

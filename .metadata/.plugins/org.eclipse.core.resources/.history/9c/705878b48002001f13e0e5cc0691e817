@@ -1,0 +1,13 @@
+package ProyectoFinal;
+
+public class Limonero implements Comestible{
+	int nLimones;
+
+	@Override
+	public int recolectar() {
+		
+	}
+	
+	
+
+}

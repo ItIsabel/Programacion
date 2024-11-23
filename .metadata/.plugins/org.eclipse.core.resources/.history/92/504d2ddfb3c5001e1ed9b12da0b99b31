@@ -1,0 +1,11 @@
+package vehiculos;
+
+public class Vehiculo {
+	String marca;
+	int matricula;
+	int id;
+	int estadoDeposito;
+	int capacidadDeposito;
+	int km;
+
+}

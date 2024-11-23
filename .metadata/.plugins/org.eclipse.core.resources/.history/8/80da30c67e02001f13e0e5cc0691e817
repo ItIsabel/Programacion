@@ -1,0 +1,7 @@
+package ProyectoFinal;
+
+public abstract class Planta extends Vegetal {
+	int edad=0;
+	
+
+}

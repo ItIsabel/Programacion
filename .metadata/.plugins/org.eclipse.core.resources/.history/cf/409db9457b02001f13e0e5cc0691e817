@@ -1,0 +1,22 @@
+package ProyectoFinal;
+
+public class Hortensia extends Planta{
+
+	@Override
+	public void regar() {
+		
+	}
+
+	@Override
+	public void abonar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	private void crecer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

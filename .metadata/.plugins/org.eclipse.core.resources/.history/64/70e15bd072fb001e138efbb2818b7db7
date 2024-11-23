@@ -1,0 +1,11 @@
+package stringBuilder;
+
+public class Test {
+
+	public static void main(String[] args) {
+		StringBuilder b1=new StringBuilder();
+		StringBuilder b2= new StringBuilder("Hola");
+		b2.
+	}
+
+}

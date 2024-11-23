@@ -1,0 +1,37 @@
+package banco;
+import segunda_Evaluacion_POO.Persona;
+
+public abstract class Cuenta {
+	private Persona cliente;
+	private int interes=8;
+	private int saldo;
+	
+	public Cuenta(Persona cliente){
+		this.cliente=cliente;
+
+	
+	}
+	public Cuenta(Persona cliente, int saldo){
+		this.cliente=cliente;
+		this.saldo=saldo;
+	}
+	public void pagarInteres() {}
+	
+	public boolean ispagarInteres() {
+		return false;
+	}
+	public void cargarCuota() {
+		this.saldo-=5;
+	}
+
+	public Persona getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Persona cliente) {
+		this.cliente = cliente;
+	}
+	
+	
+
+}

@@ -1,0 +1,37 @@
+package vehiculos;
+
+public class Vehiculo {
+	String marca;
+	int matricula;
+	int id;
+	int estadoDeposito;
+	int capacidadDeposito;
+	int km;
+	
+	public Vehiculo	(String marca, int matricula, int id, int estadoDeposito,int capacidadDeposito,int km) {
+		this.marca=marca;
+		this.matricula=matricula;
+		this.id=id;
+		this.estadoDeposito=estadoDeposito;	
+		this.capacidadDeposito=estadoDeposito;
+		this.km=km;
+		
+	}
+
+	public int getEstadoDeposito() {
+		return estadoDeposito;
+	}
+
+	public void setEstadoDeposito(int estadoDeposito) {
+		this.estadoDeposito = estadoDeposito;
+	}
+
+	public int getCapacidadDeposito() {
+		return capacidadDeposito;
+	}
+
+	public void setCapacidadDeposito(int capacidadDeposito) {
+		this.capacidadDeposito = capacidadDeposito;
+	}
+
+}
