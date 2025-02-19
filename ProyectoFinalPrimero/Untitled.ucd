@@ -1,0 +1,735 @@
+<?xml version="1.0" standalone="yes" ?>
+<diagram>
+    <title>Untitled</title>
+    <DiagramType>Class Diagram</DiagramType>
+    <Version>3.2</Version>
+    <valuesFileName />
+    <elements num="29">
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>32</objId>
+            <ptul X="260" Y="621" />
+            <ptdr X="350" Y="673" />
+            <links num="2">
+                <link id="33" />
+                <link id="34" />
+            </links>
+            <name>decorativo</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="0" />
+            <operations num="1">
+                <operation>
+                    <name>vender</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <vis>Unspec</vis>
+                    <showP />
+                    <showPT />
+                    <description />
+                    <params num="0" />
+                </operation>
+            </operations>
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>26</objId>
+            <points num="2">
+                <pt x="405" y="209" />
+                <pt x="260" y="275" />
+            </points>
+            <objStart id="22" />
+            <objEnd id="1" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>8</objId>
+            <ptul X="733" Y="365" />
+            <ptdr X="823" Y="412" />
+            <links num="2">
+                <link id="21" />
+                <link id="33" />
+            </links>
+            <name>Pino</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="1">
+                <attribute>
+                    <name>altura</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>25</objId>
+            <points num="2">
+                <pt x="495" y="215" />
+                <pt x="628" y="263" />
+            </points>
+            <objStart id="22" />
+            <objEnd id="2" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>21</objId>
+            <points num="2">
+                <pt x="695" y="308" />
+                <pt x="752" y="365" />
+            </points>
+            <objStart id="2" />
+            <objEnd id="8" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLAGG</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>23</objId>
+            <points num="2">
+                <pt x="467" y="185" />
+                <pt x="472" y="121" />
+            </points>
+            <objStart id="22" />
+            <objEnd id="0" />
+            <stereotype />
+            <constraint />
+            <roleA mult="" />
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>3</objId>
+            <ptul X="46" Y="374" />
+            <ptdr X="136" Y="400" />
+            <links num="2">
+                <link id="16" />
+                <link id="34" />
+            </links>
+            <name>Hortensia</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="0" />
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>6</objId>
+            <ptul X="495" Y="368" />
+            <ptdr X="585" Y="415" />
+            <links num="2">
+                <link id="19" />
+                <link id="29" />
+            </links>
+            <name>Limonero</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="1">
+                <attribute>
+                    <name>nLimones</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>4</objId>
+            <ptul X="156" Y="375" />
+            <ptdr X="246" Y="401" />
+            <links num="2">
+                <link id="17" />
+                <link id="27" />
+            </links>
+            <name>Albahaca</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="0" />
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>0</objId>
+            <ptul X="392" Y="26" />
+            <ptdr X="526" Y="121" />
+            <links num="2">
+                <link id="23" />
+                <link id="36" />
+            </links>
+            <name>Huerto</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="4">
+                <attribute>
+                    <name>Nombre</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+                <attribute>
+                    <name>Dinero</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+                <attribute>
+                    <name>ArrayList &lt;Arboles&gt;</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+                <attribute>
+                    <name>ArrayList&lt;Plantas&gt;</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLDEP</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>34</objId>
+            <points num="2">
+                <pt x="262" y="621" />
+                <pt x="115" y="400" />
+            </points>
+            <objStart id="32" />
+            <objEnd id="3" />
+            <stereotype />
+            <constraint />
+            <roleA />
+        </element>
+        <element>
+            <type>UMLDEP</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>28</objId>
+            <points num="2">
+                <pt x="509" y="599" />
+                <pt x="354" y="402" />
+            </points>
+            <objStart id="9" />
+            <objEnd id="5" />
+            <stereotype />
+            <constraint />
+            <roleA />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>16</objId>
+            <points num="2">
+                <pt x="170" y="293" />
+                <pt x="117" y="374" />
+            </points>
+            <objStart id="1" />
+            <objEnd id="3" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>17</objId>
+            <points num="2">
+                <pt x="205" y="309" />
+                <pt x="210" y="375" />
+            </points>
+            <objStart id="1" />
+            <objEnd id="4" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>18</objId>
+            <points num="2">
+                <pt x="260" y="293" />
+                <pt x="315" y="376" />
+            </points>
+            <objStart id="1" />
+            <objEnd id="5" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>19</objId>
+            <points num="2">
+                <pt x="628" y="283" />
+                <pt x="574" y="368" />
+            </points>
+            <objStart id="2" />
+            <objEnd id="6" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLASS</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>20</objId>
+            <points num="2">
+                <pt x="649" y="308" />
+                <pt x="649" y="366" />
+            </points>
+            <objStart id="2" />
+            <objEnd id="7" />
+            <stereotype />
+            <constraint />
+            <roleA mult="">
+                <navigable />
+            </roleA>
+            <roleB mult="" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>5</objId>
+            <ptul X="280" Y="376" />
+            <ptdr X="370" Y="402" />
+            <links num="2">
+                <link id="18" />
+                <link id="28" />
+            </links>
+            <name>Cebolla</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="0" />
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>2</objId>
+            <ptul X="628" Y="240" />
+            <ptdr X="718" Y="308" />
+            <links num="4">
+                <link id="19" />
+                <link id="20" />
+                <link id="21" />
+                <link id="25" />
+            </links>
+            <name>Arbol</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="1">
+                <attribute>
+                    <name>tipo</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="1">
+                <operation>
+                    <name>podar</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <vis>Unspec</vis>
+                    <showP />
+                    <showPT />
+                    <description />
+                    <params num="0" />
+                </operation>
+            </operations>
+        </element>
+        <element>
+            <type>UMLAGG</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>36</objId>
+            <points num="2">
+                <pt x="526" y="80" />
+                <pt x="663" y="80" />
+            </points>
+            <objStart id="0" />
+            <objEnd id="35" />
+            <stereotype />
+            <constraint />
+            <roleA mult="" />
+            <roleB mult="" />
+            <composition />
+        </element>
+        <element>
+            <type>UMLDEP</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>27</objId>
+            <points num="2">
+                <pt x="485" y="612" />
+                <pt x="237" y="401" />
+            </points>
+            <objStart id="9" />
+            <objEnd id="4" />
+            <stereotype />
+            <constraint />
+            <roleA />
+        </element>
+        <element>
+            <type>UMLDEP</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>30</objId>
+            <points num="2">
+                <pt x="576" y="604" />
+                <pt x="646" y="413" />
+            </points>
+            <objStart id="9" />
+            <objEnd id="7" />
+            <stereotype />
+            <constraint />
+            <roleA />
+        </element>
+        <element>
+            <type>UMLDEP</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>29</objId>
+            <points num="2">
+                <pt x="539" y="599" />
+                <pt x="536" y="415" />
+            </points>
+            <objStart id="9" />
+            <objEnd id="6" />
+            <stereotype />
+            <constraint />
+            <roleA />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>7</objId>
+            <ptul X="612" Y="366" />
+            <ptdr X="702" Y="413" />
+            <links num="2">
+                <link id="20" />
+                <link id="30" />
+            </links>
+            <name>Peral</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="1">
+                <attribute>
+                    <name>nPeras</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>1</objId>
+            <ptul X="170" Y="262" />
+            <ptdr X="260" Y="309" />
+            <links num="4">
+                <link id="16" />
+                <link id="17" />
+                <link id="18" />
+                <link id="26" />
+            </links>
+            <name>Planta</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="1">
+                <attribute>
+                    <name>edad</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="0" />
+        </element>
+        <element>
+            <type>UMLDEP</type>
+            <description />
+            <bgrColor R="255" G="255" B="255" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>33</objId>
+            <points num="2">
+                <pt x="304" y="621" />
+                <pt x="763" y="412" />
+            </points>
+            <objStart id="32" />
+            <objEnd id="8" />
+            <stereotype />
+            <constraint />
+            <roleA />
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>9</objId>
+            <ptul X="485" Y="599" />
+            <ptdr X="576" Y="667" />
+            <links num="4">
+                <link id="27" />
+                <link id="28" />
+                <link id="29" />
+                <link id="30" />
+            </links>
+            <name>Comestibles</name>
+            <stereotype>interface</stereotype>
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="0" />
+            <operations num="1">
+                <operation>
+                    <name>recolectar</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <vis>Unspec</vis>
+                    <showP />
+                    <showPT />
+                    <description />
+                    <params num="0" />
+                </operation>
+            </operations>
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>22</objId>
+            <ptul X="405" Y="185" />
+            <ptdr X="495" Y="237" />
+            <links num="3">
+                <link id="23" />
+                <link id="25" />
+                <link id="26" />
+            </links>
+            <name>Vegetales</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="0" />
+            <operations num="1">
+                <operation>
+                    <name>regar</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <vis>Unspec</vis>
+                    <showP />
+                    <showPT />
+                    <description />
+                    <params num="0" />
+                </operation>
+            </operations>
+        </element>
+        <element>
+            <type>UMLCLASS</type>
+            <description />
+            <bgrColor R="128" G="255" B="128" />
+            <fgrColor R="0" G="0" B="0" />
+            <objId>35</objId>
+            <ptul X="663" Y="28" />
+            <ptdr X="799" Y="128" />
+            <links num="1">
+                <link id="36" />
+            </links>
+            <name>Tiempo</name>
+            <stereotype />
+            <constraint />
+            <showAttributes />
+            <showMethods />
+            <attributes num="2">
+                <attribute>
+                    <name>mes</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+                <attribute>
+                    <name>año</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <defValue />
+                    <vis>Unspec</vis>
+                    <description />
+                </attribute>
+            </attributes>
+            <operations num="2">
+                <operation>
+                    <name>pasarTiempo</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <vis>Unspec</vis>
+                    <showP />
+                    <showPT />
+                    <description />
+                    <params num="0" />
+                </operation>
+                <operation>
+                    <name>tiempoTranscurrido</name>
+                    <stereotype />
+                    <constraint />
+                    <type />
+                    <vis>Unspec</vis>
+                    <showP />
+                    <showPT />
+                    <description />
+                    <params num="0" />
+                </operation>
+            </operations>
+        </element>
+    </elements>
+</diagram>
